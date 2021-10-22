@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj": {}
+    "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj": {
+    "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj",
         "projectName": "Weather.Api.Tests",
-        "projectPath": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj",
-        "packagesPath": "C:\\Users\\nirjhar.vermani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\Weather.Api.Tests\\obj\\",
+        "projectPath": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\Weather.Api.Tests\\Weather.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\NIRJHAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\Weather.Api.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\nirjhar.vermani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NIRJHAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj": {
-                "projectPath": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj"
+              "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj": {
+                "projectPath": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj"
               }
             }
           }
@@ -85,31 +85,28 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj": {
+    "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj",
+        "projectUniqueName": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj",
         "projectName": "Weather.Api",
-        "projectPath": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj",
-        "packagesPath": "C:\\Users\\nirjhar.vermani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nirjhar.vermani\\Documents\\StartNetCore\\WeatherForcecast.Api\\obj\\",
+        "projectPath": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\WeatherForcecast.Api\\Weather.Api.csproj",
+        "packagesPath": "C:\\Users\\NIRJHAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\NIRJHAR\\source\\repos\\StartNetCore\\WeatherForcecast.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\nirjhar.vermani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\NIRJHAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -176,7 +173,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
         }
       }
     }
