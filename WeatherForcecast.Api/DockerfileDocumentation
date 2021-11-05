@@ -1,0 +1,32 @@
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+LABEL Description=".NET Core 3.1 Project" Vendor="Microsoft" Version="3.1"
+# Put all the files in the container. There will be a folder app where all the dlls will be
+WORKDIR /app                 
+# Application will be listening to or API be listening to
+EXPOSE 5000
+# What is the protocol it will use, url, + can be anything and the port number
+ENV ASPNETCORE_URLS=http://+:5000
+# Sdk file, required file
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+# This is where sdk files will be. The directory is changed to src
+WORKDIR /src
+# Copies all the project file to the container folder. Currently we are on src folder
+COPY ["WeatherForcecast.Api/Weather.Api.csproj", "WeatherForcecast.Api/"]
+# Running the command to run the framework/project
+RUN dotnet restore "WeatherForcecast.Api\Weather.Api.csproj"
+# Copy everything into host location of the docker image
+COPY . .    
+# Move this to the following working directory                                         
+WORKDIR "/src/WeatherForcecast.Api"
+# Releasing the build
+RUN dotnet build "Weather.Api.csproj" -c Release -o /app/build
+#Building a docker image
+FROM build AS publish
+#Publishing the image
+RUN dotnet publish "Weather.Api.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+#Run from a particular location
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Weather.Api.dll"]
